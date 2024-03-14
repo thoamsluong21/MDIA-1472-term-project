@@ -49,19 +49,30 @@ h1{
 
 
 .thumbs {
-    width: 33%;
-    height: 100px;
+    width: 200px;
+    height: 120px;
     border: green solid 3px;
 }
 
 #thumbs-container{
     display: flex;
+    justify-content: center;
+}
+
+.thumbs-g {
+    width: auto;
+    height: 120px;
+    border: green solid 3px;
 }
 
 
+.thumbs-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 
-
-
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
 
 
 
